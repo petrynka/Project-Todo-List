@@ -32,36 +32,23 @@ Installation & Usage
 
 Clone the repository:
 
-git clone https://github.com/yourusername/todo-app.git
+git clone git@github.com:petrynka/Project-Todo-List.git
 
-Navigate to the project directory:
+todo-app/
+  ├── src/
+  │   ├── index.js                
+  │   ├── modules/
+  │   │   ├── Todo.js             
+  │   │   ├── Project.js          
+  │   │   ├── Storage.js          
+  │   │   └── UI.js               
+  │   └── styles/
+  │       └── style.css          
+  ├── webpack.config.js           
+  ├── package.json
+  ├── .gitignore
+  └── index.html
 
-cd todo-app
-
-Open index.html in a browser to start using the application.
-
-Project Structure
-
-/project-root
-│── index.html
-│── style.css
-│── main.js
-│── /modules
-│    ├── UI.js
-│    ├── Todo.js
-│    ├── Project.js
-│    ├── Storage.js
-│── /assets
-
-Future Improvements
-
-Implement database storage for better persistence
-
-Add user authentication
-
-Improve UI with animations and better design
-
-Create a mobile-friendly version
 
 License
 
